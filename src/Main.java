@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 
-
 public class Main {
 
 
@@ -18,11 +17,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] test1 = {1, 2, 6, 8, 4, 5};
+        int[] test1 = {1, 30, 11, 22, 4, 45};
         reverse(test1);
         System.out.println(Arrays.toString(test1));
     }
 }
+
+
 
         /* reverse(test1);
         System.out.println(Arrays.toString(test1));*/
